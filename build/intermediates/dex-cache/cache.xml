@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Asus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_ffa07bb019cc650e42faf4fa42ce57530b2981b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_bc365a12c9c41d946128cf3669dce16b2536e4fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.3.1_90fe0445b405f4c1684233bce0ca4bde8decde80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_91d07390b4c590a7a14cd5c30e797af365f00b64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.1.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6825a79ca6c134dd6f26fc15eff443b5215dbdc">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\pl.droidsonroids.gif-android-gif-drawable-1.1.7_8ade21e1ec61962b8c113a5cae5f3602972903c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_3ff21f3c369cc542f4def30155025c5ea6cdd94c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_5cdf8a5cd2a011f88458ac9e70746673b75e03a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_7b59c1ad12f9482adea001d40cdbefd41a2e9d02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_810a9c4280ffd70d568643870653b1564b334166\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_0f4a972ad6aa0454dd45b827c5adf26b7ee10d16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.1_9f67ab6ddd7fe8a7d1d962f90feabc2374ba8e78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_b979a82d14ecd352cab29cd651d7a5d51bca9835\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a21913de43bce103a2ac15f817e884f990d7fb5">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_defb4dae6ea7df995fd53e85871d94a103553344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b7bf227204ecee1b748eb14e860a716a2336043">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bfd67147b70e83e82d86b07be72ba4431d61c635\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_3d76a80182cbb85c32393467ce018e11b91de60c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SirkulasiProject\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\SirkulasiProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.3.1_6358dafc1f32b35b2bf89f1e7b6e8abf179ad083\classes.dex" />
+    </item>
+
+</items>
