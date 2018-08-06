@@ -26,16 +26,16 @@ public class MenuMateri extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                LayoutInflater inflater = getLayoutInflater();
-                View layout = inflater.inflate(R.layout.toast_custom,
-                        (ViewGroup) findViewById(R.id.toast_custom_container));
-                Toast toast = new Toast(getApplicationContext());
-                toast.setGravity(Gravity.TOP,15,15);
-                toast.setDuration(Toast.LENGTH_LONG);
-                toast.setView(layout);
-                toast.show();
+                //LayoutInflater inflater = getLayoutInflater();
+                //View layout = inflater.inflate(R.layout.toast_custom,
+                       // (ViewGroup) findViewById(R.id.toast_custom_container));
+                //Toast toast = new Toast(getApplicationContext());
+                //toast.setGravity(Gravity.TOP,15,15);
+                //toast.setDuration(Toast.LENGTH_LONG);
+                //toast.setView(layout);
+                //toast.show();
                 Intent i = null;
-                i = new Intent(getApplicationContext(), SelDarahSlider.class);
+                i = new Intent(getApplicationContext(), SliderDarah.class);
                 startActivity(i);
 
             }
@@ -47,7 +47,7 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = null;
-                i = new Intent(getApplicationContext(), SelDarahSlider.class);
+                i = new Intent(getApplicationContext(), GolonganDarah.class);
                 startActivity(i);
             }
 
@@ -59,7 +59,7 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = null;
-                i = new Intent(getApplicationContext(), SelDarahSlider.class);
+                i = new Intent(getApplicationContext(), PembekuanDarah.class);
                 startActivity(i);
             }
 
@@ -71,7 +71,7 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = null;
-                i = new Intent(getApplicationContext(), SelDarahSlider.class);
+                i = new Intent(getApplicationContext(), MenuQuiz.class);
                 startActivity(i);
             }
 

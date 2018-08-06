@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".MenuQuiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="60dp"
+            android:text="CEK KEMUNGKINAN GOLONGAN DARAH"
+            android:id="@+id/buttoncek"
+            android:textSize="15sp"
+            android:theme="@style/MyButton"
+            android:textColor="#990000"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="45dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="60dp"
+            android:text="TRUE - FALSE"
+            android:id="@+id/buttontruefalse"
+            android:textSize="15sp"
+            android:theme="@style/MyButton"
+            android:textColor="#990000"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="45dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

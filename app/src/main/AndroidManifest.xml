@@ -4,8 +4,10 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".SplashScreen">
@@ -19,7 +21,12 @@
         <activity android:name=".MenuMateri" />
         <activity android:name=".Tentang" />
         <activity android:name=".Kurikulum" />
-        <activity android:name=".SelDarahSlider" />
+        <activity android:name=".SliderDarah" />
+        <activity android:name=".PembekuanDarah" />
+        <activity android:name=".GolonganDarah" />
+        <activity android:name=".MenuQuiz" />
+        <activity android:name=".KemungkinanGolongan" />
+        <activity android:name=".KurikulumScroll"></activity>
     </application>
 
 </manifest>

@@ -12,4 +12,9 @@
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#FD4C4E</item>
+        <item name="colorButtonNormal">#ffffff</item>
+    </style>
+
 </resources>
