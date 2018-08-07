@@ -25,6 +25,7 @@ public class PembekuanDarah extends AppCompatActivity {
         sliderAdapter = new PembekuanDarah.SliderAdapter(this);
         slider.setAdapter(sliderAdapter);
 
+
     }
 
     private class SliderAdapter extends PagerAdapter {

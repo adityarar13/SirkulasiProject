@@ -71,7 +71,7 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = null;
-                i = new Intent(getApplicationContext(), MenuQuiz.class);
+                i = new Intent(getApplicationContext(), MenuQuizS.class);
                 startActivity(i);
             }
 

@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class KemungkinanGolongan extends AppCompatActivity {
 
@@ -44,21 +45,144 @@ public class KemungkinanGolongan extends AppCompatActivity {
                                 textView.setText("A dan O");
                 }*/
                 if (hasilCowo.equals(a) && hasilCewe.equals(a)) {
-                    textView.setText("A dan B");
+                    textView.setText("A atau B");
                 }
 
                 if (hasilCowo.equals(a) && hasilCewe.equals(b)) {
-                    textView.setText("A, B, AB dan O");
+                    textView.setText("A, B, AB atau O");
                 }
 
                 if (hasilCowo.equals(a) && hasilCewe.equals(ab)) {
-                    textView.setText("A, B, dan AB");
+                    textView.setText("A, B, atau AB");
                 }
 
                 if (hasilCowo.equals(a) && hasilCewe.equals(o)) {
-                    textView.setText("A dan O");
+                    textView.setText("A atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(a)) {
+                    textView.setText("A, B, AB atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(b)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(ab)) {
+                    textView.setText("A, B, atau AB");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(o)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(a)) {
+                    textView.setText("A, B atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(b)) {
+                    textView.setText("A, B atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(ab)) {
+                    textView.setText("A, B, atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(o)) {
+                    textView.setText("A atau B");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(a)) {
+                    textView.setText("A atau O");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(b)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(ab)) {
+                    textView.setText("A atau B");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(o)) {
+                    textView.setText("O");
+                }
+
+                if (hasilCowo.equals(a) && hasilCewe.equals(a)) {
+                    textView.setText("A atau B");
+                }
+
+                if (hasilCowo.equals(a) && hasilCewe.equals(b)) {
+                    textView.setText("A, B, AB atau O");
+                }
+
+                if (hasilCowo.equals(a) && hasilCewe.equals(ab)) {
+                    textView.setText("A, B, atau AB");
+                }
+
+                if (hasilCowo.equals(a) && hasilCewe.equals(o)) {
+                    textView.setText("A atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(a)) {
+                    textView.setText("A, B, AB atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(b)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(ab)) {
+                    textView.setText("A, B, atau AB");
+                }
+
+                if (hasilCowo.equals(b) && hasilCewe.equals(o)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(a)) {
+                    textView.setText("A, B atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(b)) {
+                    textView.setText("A, B atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(ab)) {
+                    textView.setText("A, B, atau AB");
+                }
+
+                if (hasilCowo.equals(ab) && hasilCewe.equals(o)) {
+                    textView.setText("A atau B");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(a)) {
+                    textView.setText("A atau O");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(b)) {
+                    textView.setText("B atau O");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(ab)) {
+                    textView.setText("A atau B");
+                }
+
+                if (hasilCowo.equals(o) && hasilCewe.equals(o)) {
+                    textView.setText("O");
+                }
+
+                else {
+                    Toast.makeText(KemungkinanGolongan.this, "MASUKKAN GOLONGAN DARAH DENGAN BENAR", Toast.LENGTH_LONG).show();
 
                 }
+
+                /*else if (!hasilCowo.equals(a) && !hasilCowo.equals(b) && !hasilCowo.equals(o) && !hasilCowo.equals(ab) &&
+                        !hasilCewe.equals(a) && !hasilCewe.equals(b) && !hasilCewe.equals(o) && hasilCewe.equals(ab)) {
+                    Toast.makeText(KemungkinanGolongan.this, "MASUKKAN GOLONGAN DARAH DENGAN BENAR", Toast.LENGTH_LONG).show();
+
+                }*/
+
             }
         });
     }

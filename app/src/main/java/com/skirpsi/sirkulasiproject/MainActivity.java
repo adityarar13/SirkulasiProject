@@ -26,7 +26,7 @@ ImageButton btn1,btn2,btn3;
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Tentang.class);
+                Intent i = new Intent(getApplicationContext(), KurikulumScroll.class);
                 startActivity(i);
             }
         });
@@ -34,7 +34,7 @@ ImageButton btn1,btn2,btn3;
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), KurikulumScroll.class);
+                Intent i = new Intent(getApplicationContext(), TentangScroll.class);
                 startActivity(i);
             }
         });

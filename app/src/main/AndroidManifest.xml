@@ -26,7 +26,9 @@
         <activity android:name=".GolonganDarah" />
         <activity android:name=".MenuQuiz" />
         <activity android:name=".KemungkinanGolongan" />
-        <activity android:name=".KurikulumScroll"></activity>
+        <activity android:name=".KurikulumScroll" />
+        <activity android:name=".TentangScroll" />
+        <activity android:name=".MenuQuizS"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:id="@+id/activity_menu_quiz"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background1"
+    android:background="@drawable/layoutgame1"
     android:orientation="vertical"
     tools:context=".MenuQuiz">
 
