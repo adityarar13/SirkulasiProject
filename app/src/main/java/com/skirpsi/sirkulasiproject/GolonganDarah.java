@@ -34,6 +34,7 @@ public class GolonganDarah extends AppCompatActivity {
         public SliderAdapter(Context context) { this.context = context; }
 
         int[] list_imagegolongan = {
+                R.drawable.cover2,
                 R.drawable.golongan1,
                 R.drawable.golongan2,
                 R.drawable.golongan3,

@@ -25,5 +25,13 @@ public class MenuQuizS extends AppCompatActivity {
             }
         });
 
+        bTruefalse = (ImageButton) findViewById(R.id.trufals);
+        bTruefalse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), QuizActivity.class));
+            }
+        });
+
     }
 }

@@ -38,6 +38,7 @@ public class SliderDarah extends AppCompatActivity {
         }
 
         int[] list_imagedarah = {
+                R.drawable.cover1,
                 R.drawable.darah1,
                 R.drawable.darah2,
                 R.drawable.darah3,

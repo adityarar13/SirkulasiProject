@@ -10,7 +10,8 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +29,9 @@
         <activity android:name=".KemungkinanGolongan" />
         <activity android:name=".KurikulumScroll" />
         <activity android:name=".TentangScroll" />
-        <activity android:name=".MenuQuizS"></activity>
+        <activity android:name=".MenuQuizS" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>

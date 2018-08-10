@@ -37,6 +37,7 @@ public class PembekuanDarah extends AppCompatActivity {
         }
 
         int[] list_imagebeku = {
+                R.drawable.cover3,
                 R.drawable.pembekuan1,
         };
 
