@@ -57,6 +57,11 @@ public class QuizActivity extends AppCompatActivity {
                     mScore++; //buat update score int variable
                     //updateScore(mScore);//mengubah score int variable ke string dan menambahkan mscoreview
 
+                   /* mTrueButton.setBtnFillColor(R.color.yelo);
+                    *//*mTrueButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnColor(R.color.grey);*//*
+                    mFalseButton.setBtnFillColor(R.color.mera);*/
+
                     Toast.makeText(QuizActivity.this, "Correct", Toast.LENGTH_SHORT).show();
 
                     //perform this cek before update question
@@ -71,8 +76,12 @@ public class QuizActivity extends AppCompatActivity {
                         updateQuestion();
                     }
                 } else {
-                    mTrueButton.setBtnFillColor(R.color.colorPrimary);
-                    mFalseButton.setBtnFillColor(R.color.colorAccent);
+                    /*mTrueButton.setBtnFillColor(R.color.yelo);
+                    mTrueButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnFillColor(R.color.mera);*/
+                    mTrueButton.setBtnFillColor(R.color.yelo);
+                    mFalseButton.setBtnFillColor(R.color.mera);
 
                     Toast.makeText(QuizActivity.this, "Wrong", Toast.LENGTH_SHORT).show();
                     //jika jawaban pengguna salah
@@ -99,6 +108,14 @@ public class QuizActivity extends AppCompatActivity {
                     mScore++; //buat update score int variable
                     //updateScore(mScore);//mengubah score int variable ke string dan menambahkan mscoreview
 
+                    /*mTrueButton.setBtnFillColor(R.color.yelo);
+                    mTrueButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnFillColor(R.color.mera);*/
+
+                   /* mTrueButton.setBtnFillColor(R.color.yelo);
+                    mFalseButton.setBtnFillColor(R.color.mera);*/
+
                     Toast.makeText(QuizActivity.this, "Correct", Toast.LENGTH_SHORT).show();
                     //perform this cek before update question
                     if (mQuestionNumber == QuizDatabase.questions.length) {
@@ -114,8 +131,13 @@ public class QuizActivity extends AppCompatActivity {
                 } else {
                    /* mTrueButton.setAnimDuration(1);
                     mFalseButton.setAnimDuration(1);*/
-                    mTrueButton.setBtnFillColor(R.color.colorPrimary);
-                    mFalseButton.setBtnFillColor(R.color.colorAccent);
+                   /* mTrueButton.setBtnFillColor(R.color.yelo);
+                    mTrueButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnColor(R.color.grey);
+                    mFalseButton.setBtnFillColor(R.color.mera);*/
+
+                    mTrueButton.setBtnFillColor(R.color.yelo);
+                    mFalseButton.setBtnFillColor(R.color.mera);
 
                     Toast.makeText(QuizActivity.this, "Wrong", Toast.LENGTH_SHORT).show();
                     //jika jawaban pengguna salah

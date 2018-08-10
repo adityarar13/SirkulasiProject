@@ -89,7 +89,8 @@
                 android:layout_weight="1"
                 app:allow_random_color="false"
                 app:siShape="@raw/benar5"
-                android:layout_centerInParent="true"/>
+                android:layout_centerInParent="true"
+                />
 
         </RelativeLayout>
 

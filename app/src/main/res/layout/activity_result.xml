@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_results"
+    android:background="@drawable/background1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -26,7 +27,7 @@
         android:textSize="35sp"
         android:padding="16dp"
         android:layout_margin="16dp"
-        android:textColor="#990000"
+        android:textColor="#fff000"
         android:textStyle="bold" />
 
     <TextView
@@ -38,6 +39,7 @@
         android:padding="16dp"
         android:text="Skor kamu adalah"
         android:textStyle="bold"
+        android:textColor="#fff000"
         android:textSize="25dp"
         android:textAlignment="center"/>
 
@@ -48,7 +50,7 @@
         android:textAlignment="center"
         android:textSize="70sp"
         android:padding="16dp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#fff"
         android:layout_margin="16dp"
         android:id="@+id/outOf"
         android:text="You scored 8 out of 10"/>

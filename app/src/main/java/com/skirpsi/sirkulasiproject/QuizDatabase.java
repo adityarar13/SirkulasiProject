@@ -22,9 +22,9 @@ public class QuizDatabase {
     };
 
     public static int[] images = new int[]{
-            R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c,
-            R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c,
-            R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c, R.drawable.tombol15c,
+            R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho,
+            R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho,
+            R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho, R.drawable.hoho,
     };
 
     public static boolean[] answers = new boolean[]{

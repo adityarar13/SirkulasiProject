@@ -81,10 +81,10 @@ public class ResultActivity extends AppCompatActivity {
             mGrade.setText("Oke");
         }else {
             mGrade.setText("Belajar lagi ya...");
-        } if (score <= 10) {
+        } if (score >= 7) {
             //viewKonfetti.reset();
             viewKonfetti.build()
-                    .addColors(Color.YELLOW, Color.GREEN, Color.MAGENTA)
+                    .addColors(Color.BLUE, Color.GREEN, Color.YELLOW)
                     .setDirection(0.0, 359.0)
                     .setSpeed(1.5f, 5f)
                     .setFadeOutEnabled(true)
@@ -92,8 +92,8 @@ public class ResultActivity extends AppCompatActivity {
                     .addShapes(Shape.RECT, Shape.CIRCLE)
                     .addSizes(new Size(12, 5f))
                     .setPosition(-100f, viewKonfetti.getWidth() + 800f, -100f, -100f)
-                    .stream(60, 5000L);
-        } if (score >= 7) {
+                    .stream(80, 5000L);
+        } if (score <= 7) {
             viewKonfetti.build()
                     .addColors(Color.BLACK, Color.BLUE, Color.CYAN)
                     .setDirection(0.0, 359.0)
@@ -103,7 +103,7 @@ public class ResultActivity extends AppCompatActivity {
                     .addShapes(Shape.RECT, Shape.CIRCLE)
                     .addSizes(new Size(12, 5f))
                     .setPosition(-100f, viewKonfetti.getWidth() + 800f, -100f, -100f)
-                    .stream(100, 5000L);
+                    .stream(140, 5000L);
         }
 
         mRetryButton.setOnClickListener(new View.OnClickListener() {

@@ -18,20 +18,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".MenuMateri" />
-        <activity android:name=".Tentang" />
-        <activity android:name=".Kurikulum" />
-        <activity android:name=".SliderDarah" />
-        <activity android:name=".PembekuanDarah" />
-        <activity android:name=".GolonganDarah" />
-        <activity android:name=".MenuQuiz" />
-        <activity android:name=".KemungkinanGolongan" />
-        <activity android:name=".KurikulumScroll" />
-        <activity android:name=".TentangScroll" />
-        <activity android:name=".MenuQuizS" />
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuMateri"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tentang"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Kurikulum"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SliderDarah"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PembekuanDarah"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GolonganDarah"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuQuiz"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KemungkinanGolongan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KurikulumScroll"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TentangScroll"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuQuizS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuizActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>
